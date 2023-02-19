@@ -1,4 +1,4 @@
-module github.com/fluxcd/pkg/tar
+module github.com/JasonTheDeveloper/pkg/tar
 
 go 1.18
 

@@ -168,8 +168,6 @@ func Untar(r io.Reader, dir string, inOpts ...TarOption) (err error) {
 				return err
 			}
 			madeDir[abs] = true
-		default:
-			return fmt.Errorf("tar file entry %s contained unsupported file type %v", f.Name, mode)
 		}
 	}
 	return nil
